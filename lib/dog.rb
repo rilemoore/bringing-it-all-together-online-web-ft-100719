@@ -28,8 +28,9 @@ class Dog
   end
   
   def self.new_from_db(info)
+        binding.pry
     new_dog = self.new(info)
-    binding.pry
+
     new_dog
   end
   
