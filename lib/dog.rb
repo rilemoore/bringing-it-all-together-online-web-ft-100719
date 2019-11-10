@@ -29,7 +29,7 @@ class Dog
   
   def self.new_from_db(info)
     info_hash = {:name => info[1], :breed => info[2], :id => info[0]}
-    new_dog = self.new(info)
+    new_dog = self.new(info_hash)
 
     new_dog
   end
