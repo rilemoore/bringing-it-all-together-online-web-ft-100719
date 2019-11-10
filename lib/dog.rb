@@ -28,7 +28,7 @@ class Dog
   end
   
   def self.new_from_db(info)
-    new_dog = self.new(info[1], info[2], info[0])
+    new_dog = self.new(info)
     new_dog
   end
   
