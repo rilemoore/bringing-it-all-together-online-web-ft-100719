@@ -3,9 +3,9 @@ class Dog
   attr_reader :id
   
   def initialize(info_hash)
-    # # @name = info_hash[:name]
-    # # @breed = info_hash[:breed]
-    # # @id = info_hash[:id]
+    @name = info_hash[:name]
+    @breed = info_hash[:breed]
+    @id = info_hash[:id]
     # @name = name
     # @breed = breed
     # @id = id
